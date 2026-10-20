@@ -1,0 +1,68 @@
+# ==========================================
+# Python
+# ==========================================
+# 虚拟环境 (匹配任何位置的 .venv / venv / env)
+.venv/
+venv/
+env/
+ENV/
+
+# 缓存与编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 打包构建产物
+build/
+dist/
+*.egg-info/
+
+# 项目特定数据 (如仿真结果、本地数据库)
+backend/data/
+
+# ==========================================
+# Node / Frontend (Vite + TS)
+# ==========================================
+node_modules/
+
+# 构建输出
+dist/
+dist-ssr/
+
+# Vite/TS 缓存与本地文件
+.vite/
+*.local
+*.tsbuildinfo
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# 编辑器与操作系统
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 杂项与环境变量
+# ==========================================
+*.log
+.env
+.env.*
+!.env.example
+
+# 特定工具/本地参考目录 (根据截图判断)
+.workbuddy/
+_refs/

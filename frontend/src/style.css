@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  color: #1f2329;
+  background: #f5f6f8;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0;
+  color: #646a73;
+}
